@@ -1,5 +1,4 @@
-<f:layout name='Default'/>
-<f:section name='main'>
+
 	<f:if condition="{mail -> f:count()} > 0">
 		<table>
 			<f:for each="{mail}" as="data" key="fields" iteration="itemIteration">
@@ -24,4 +23,3 @@
 			</f:for>
 		</table>
 	</f:if>
-</f:section>
